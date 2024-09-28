@@ -9,8 +9,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/cat-icon.png" rel="icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -42,7 +41,7 @@
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/my-profile-pic.png" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -53,25 +52,14 @@
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i> Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+        <li class="dropdown"><a href="#portfolio"><span><i class="bi bi-images navicon"></i> Portfolio</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
+            <li><a href="#portfolio">2D Art</a></li>
+            <li><a href="#portfolio">Game UI Design</a></li>
+            <li><a href="#portfolio">Concept Art</a></li>
           </ul>
         </li>
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
@@ -85,7 +73,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+      <img src="assets/img/header-bg.png" alt="" data-aos="fade-in" class="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Nannaphat Ruammahasap</h2>
@@ -107,7 +95,7 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/my-profile-pic-2.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
             <h2>Concept Artist &amp; Game UI Designer</h2>
@@ -270,8 +258,8 @@
               <h5>2022 - Present</h5>
               <ul>
                 <li>Assigned to be a Lead UI designer in multiple college projects</li>
-                <li>Design UI components such as buttons, menus, and icons for PC and mobile games.</li>
-                <li>Maintain a balance between aesthetic quality and functionality to ensure that user interfaces are both beautiful and easy to navigate.</li>
+                <li>Design UI components such as buttons, menus, and icons for PC and mobile games</li>
+                <li>Maintain a balance between aesthetic quality and functionality to ensure that user interfaces are both beautiful and easy to navigate</li>
               </ul>
             </div><!-- Edn Resume Item -->
 
@@ -296,92 +284,116 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">2D Art</li>
-            <li data-filter=".filter-product">UI Designs</li>
-            <li data-filter=".filter-branding">Concept Art</li>
+            <li data-filter=".filter-art">2D Art</li>
+            <li data-filter=".filter-ui">Game UI Design</li>
+            <li data-filter=".filter-concept">Concept Art</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-art">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/art-thumbnail.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Character Illustration</h4>
+                  <p>Digital illustrated artwork of a client's character</p>
+                  <a href="assets/img/portfolio/art.png" title="Character Illustration" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/ui-design-thumbnail.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>UI Beta Layout Design</h4>
+                  <p>For college project: RITTER FRAME ZERO</p>
+                  <a href="assets/img/portfolio/ui-design.png" title="UI Beta Layout Design" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-concept">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/concept-art-thumbnail.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Creature Design Concept</h4>
+                  <p>Creature design concept with multiple animal features</p>
+                  <a href="assets/img/portfolio/concept-art.png" title="Creature Design Concept" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-art">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/art-2-thumbnail.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Character Illustration</h4>
+                  <p>Digital illustrated artwork of a client's character</p>
+                  <a href="assets/img/portfolio/art-2.png" title="Character Illustration" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/ui-design-2-thumbnail.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Skill Icon Art and Design</h4>
+                  <p>For college project: Lucy and Polly (Mobile game)</p>
+                  <a href="assets/img/portfolio/ui-design-2.png" title="Skill Icon Art and Design" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-concept">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/concept-art-2-thumbnail.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Character Design Concept</h4>
+                  <p>Character design concept for an online client</p>
+                  <a href="assets/img/portfolio/concept-art-2.png" title="Character Design Concept" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-art">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/art-3-thumbnail.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <h4>Game Main Menu</h4>
+                  <p>For college project: Astro-no-monster!</p>
+                  <a href="assets/img/portfolio/art-3.png" title="Game Main Menu" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/ui-design-3-thumbnail.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Game Icons Design</h4>
+                  <p>For college project: Lucy and Polly (Mobile game)</p>
+                  <a href="assets/img/portfolio/ui-design-3.png" title="Game Icons Design" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-concept">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/concept-3-thumbnail.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Game Character Design Concept</h4>
+                  <p>For college project: Lucy and Polly (Mobile game)</p>
+                  <a href="assets/img/portfolio/concept-3.png" title="Game Character Design Concept" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
